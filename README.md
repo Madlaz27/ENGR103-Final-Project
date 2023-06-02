@@ -13,17 +13,10 @@ INPUTS:
 OUTPUTS: 
   Dice Roll Animation: Uses the LEDs to display a spinning animaton pattern when a new roll is requested.
   Dice Roll Number: Determines a random number from 1 to 6 and displays the corresponding dots on the LEDs.
+  Speaker: Uses the speaker to speak the dice number that is rolled. It also says "Bravo" when a player wins and "pass" when a player skips their turns.
+  Winning Condition: Checks the winning condition (when the score is = 10 points). When a player wins it displays an LED pattern and the speaker says "Bravo".
+  Serial Monitor: After each role, the updated player scores are printed in the serial monitor. When someone wins, it also prints "Player A wins!" or "Player B     wins!" into the serial monitor.
   
-
-Speaker:
-The code uses the speaker to speak the dice number that is rolled
-It also says “Bravo” when a player wins and “pass” when a player skips their turns
-Winning condition
-The code checks the winning condition (when the score is = to 10 points).
-When a player wins it displays an LED pattern and the speaker says “Bravo”
-Serial monitor 
-After each role the updated player scores are printed in the serial monitor.
-When someone wins it also prints this message in the serial monitor
 
 
 
