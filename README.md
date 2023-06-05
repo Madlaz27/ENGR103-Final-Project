@@ -1,4 +1,4 @@
-# ENGR103-Final-Project
+# ENGR103 Final Project (Roll to 10 game)
 OBJECTIVE: Be the first player to get to 10 points.
 
 RULES: This is a two player dice game to play on the Circuit PLayground Express board. First player to get to 10 points wins and you can choose to either press button A to roll the dice or press button B to skip your turn. If you go over 10 points, your score gets reset back to 0. 
